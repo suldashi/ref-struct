@@ -1,6 +1,6 @@
 {
-  "name": "ref-struct",
-  "description": "Create ABI-compliant \"struct\" instances on top of Buffers",
+  "name": "@suldashi/ref-struct",
+  "description": "Create ABI-compliant \"struct\" instances on top of Buffers. Fixed Node 12 builds.",
   "keywords": [
     "struct",
     "ref",
@@ -9,11 +9,11 @@
     "c++",
     "ffi"
   ],
-  "version": "2.0.0",
+  "version": "2.0.2",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/ref-struct.git"
+    "url": "git://github.com/suldashi/ref-struct.git"
   },
   "main": "./lib/struct.js",
   "license": "MIT",
@@ -22,12 +22,12 @@
   },
   "dependencies": {
     "debug": "4",
-    "ref": "lxe/ref#node-12"
+    "@suldashi/ref": "^2.0.1"
   },
   "devDependencies": {
     "bindings": "~1.5.0",
     "nan": "2",
     "mocha": "*",
-    "ref-array": "lxe/ref-array#node-12"
+    "@suldashi/ref-array": "^2.0.2"
   }
 }

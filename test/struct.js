@@ -1,7 +1,7 @@
 
 var assert = require('assert')
-  , ref = require('ref')
-  , ArrayType = require('ref-array')
+  , ref = require('@suldashi/ref')
+  , ArrayType = require('@suldashi/ref-array')
   , Struct = require('../')
   , bindings = require('bindings')({ module_root: __dirname, bindings: 'struct_tests' })
 
